@@ -1,0 +1,53 @@
+\ProvidesPackage{preamble}
+\usepackage{booktabs}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\renewcommand{\rmdefault}{ptm}
+\usepackage[margin=1in]{geometry}
+\usepackage[space]{grffile}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{mathtools, amsthm} 
+\usepackage[subscriptcorrection,nofontinfo,amssymbols,mtpbb]{mtpro2}  
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\mathcal{E}}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{urlcolor}{RGB}{19, 0, 155}
+\definecolor{mycolor}{RGB}{205, 224, 255}
+\definecolor{bgcolor}{RGB}{244,244,244}
+\newcommand*\mycolorbox[1]{%
+\colorbox{mycolor}{\hspace{1em}#1\hspace{1em}}}
+\usepackage{color,soul}
+\setulcolor{NavyBlue}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=urlcolor,citecolor=red}
+\usepackage[capitalize,nameinlink]{cleveref}
+\usepackage{listings}
+\lstset{
+escapeinside={/*}{*/},
+language=Python, 
+breaklines=true, 
+basicstyle=\footnotesize\ttfamily,
+showstringspaces=false,
+morekeywords={*,True,False, None},
+% numbers=left,
+}
+\usepackage{mdframed}
+%\mdfsetup{align=center}
+\usepackage{enumitem}
+\setlist[enumerate]{noitemsep}
+\setlist[itemize]{noitemsep}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\renewcommand{\labelitemi}{\scriptsize$\blacklozenge$}
+
+\usepackage{esvect}
+\usepackage{gensymb}
+
+\usepackage{subfig}
