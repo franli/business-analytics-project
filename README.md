@@ -22,8 +22,8 @@ The data is downloaded from [ Stack Exchange Data Explorer](https://data.stackex
 
 The website data downloaded from the Data Explorer are in xml format. I first extracted the relevant information, then aggregated and transformed the tables and computed the features. Exploratory data analysis was also done. Finally, a logistic regression model was built. All of the code can be found respectively in the following links
 
-* [data-aggregation.py](code/data-aggregation.py)
 * [data-extraction.py](code/data-extraction.py)
+* [data-aggregation.py](code/data-aggregation.py)
 * [eda.py](code/eda.py)
 * [model.py](model.py)
 
